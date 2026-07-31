@@ -1,0 +1,5 @@
+# Rewards and Progression
+
+**Status:** Draft scaffold
+
+TODO: Approved public content required
