@@ -16,7 +16,11 @@ Real Items can currently appear through:
 - The hosted Move+ Marketplace.
 - The MiniPay-compatible hosted marketplace while that integration is under testing.
 
-The native Move+ Marketplace is the primary surface for redeeming supported physical products using Energy.
+The native Move+ Marketplace is the primary surface for eligible full-Energy Real Item redemption.
+
+Full Energy payment is limited to users with an active qualifying iOS Move+ subscription.
+
+Verified compatible Digital Gear holders may use Energy only as a discount of up to 20% toward an eligible stablecoin checkout.
 
 The hosted marketplace provides catalog browsing, product details, cart functionality, and selected payment features where enabled.
 
@@ -47,7 +51,8 @@ Users may be able to:
 - Filter products by supported category.
 - Open product details.
 - Review product images and descriptions.
-- Review the listed Energy requirement.
+- Review the listed Energy requirement where applicable.
+- Review the user’s available Energy-payment or discount eligibility.
 - Review stablecoin pricing where available on the hosted marketplace.
 - Check whether a product is available, limited, expired, or sold out.
 - Search products on supported hosted marketplace surfaces.
@@ -74,38 +79,66 @@ Not every listing includes every field.
 
 Product variants such as size, color, or other selectable options are not currently supported as a standard marketplace feature unless explicitly shown in the product listing.
 
-## Energy redemption
+## Energy use
 
-Supported Real Items can be redeemed using Energy through the native Move+ Marketplace.
+Energy use for Real Items depends on the user’s eligibility.
 
-A typical Energy redemption flow is:
+### Full Energy payment
+
+Users with an active qualifying iOS Move+ subscription may be eligible to redeem the full cost of a supported Real Item using Energy.
+
+A typical full-Energy redemption flow is:
 
 1. Sign in to Move+.
-2. Open Marketplace.
-3. Browse available Real Items.
-4. Open the intended product.
-5. Review the Energy requirement.
-6. Confirm that sufficient Energy is available.
-7. Enter the required delivery information.
-8. Submit the redemption.
-9. Receive confirmation that the order was recorded.
-10. Wait for fulfillment coordination.
+2. Confirm that the qualifying iOS subscription is active.
+3. Open Marketplace.
+4. Browse eligible Real Items.
+5. Open the intended product.
+6. Review the Energy requirement.
+7. Confirm that sufficient Energy is available.
+8. Enter the required delivery information.
+9. Submit the redemption.
+10. Receive confirmation that the order was recorded.
+11. Wait for fulfillment coordination.
 
-Energy redemption generally requires:
+Full Energy payment generally requires:
 
 - A valid Move+ account.
+- An active qualifying iOS Move+ subscription.
 - Sufficient Energy.
 - An available and eligible product.
 - Complete delivery information where required.
-- Successful marketplace and account validation.
+- Successful marketplace validation.
 
-A blockchain wallet is not required for normal Energy-based Real Item redemption.
+A blockchain wallet is not required for eligible full-Energy payment.
+
+### Digital Gear holder discount
+
+Users with verified compatible Digital Gear may apply Energy only as a discount toward an eligible stablecoin checkout.
+
+The discount is limited to a maximum of 20% of the eligible checkout value.
+
+At least 80% of the checkout value remains payable using a supported stablecoin when the maximum discount is applied.
+
+This discount generally requires:
+
+- A valid Move+ account.
+- A linked wallet for the compatible Digital Gear network.
+- Verified supported Digital Gear ownership.
+- Sufficient Energy.
+- An eligible Real Item.
+- An active supported stablecoin checkout.
+- Complete delivery information.
+
+Digital Gear ownership alone does not provide full Energy payment.
+
+Exact Energy conversion calculations are not published.
 
 Energy is an in-app reward and should not be treated as cash, a stablecoin, or a guaranteed transferable payment balance.
 
 ## Native marketplace behavior
 
-The native Move+ Marketplace currently supports single-product Energy redemption.
+The native Move+ Marketplace currently supports single-product full-Energy redemption for eligible active iOS subscribers.
 
 The native marketplace may provide:
 
@@ -113,6 +146,7 @@ The native marketplace may provide:
 - Category filtering.
 - Product detail views.
 - Energy price sorting.
+- Eligibility validation for supported full-Energy redemption.
 - Product availability messaging.
 - Delivery information entry.
 - Order confirmation.
@@ -130,12 +164,16 @@ The hosted Move+ Marketplace may provide:
 - Cart functionality.
 - Quantity controls.
 - Availability filtering.
-- Energy-linked discounts where supported.
+- Digital Gear holder Energy discounts of up to 20% where supported.
 - MiniPay-compatible stablecoin checkout where enabled.
 
 The hosted marketplace remains under active testing.
 
-Full Energy payment is not generally available through the hosted marketplace. Full Energy redemption remains primarily associated with the native Move+ application.
+Full Energy payment is not generally available through the hosted marketplace.
+
+Full Energy redemption remains limited to eligible active iOS subscribers through the supported native Move+ flow.
+
+Verified compatible Digital Gear holders may use Energy only for a discount of up to 20%, with at least 80% remaining payable through a supported stablecoin when the maximum discount is applied.
 
 ## MiniPay-compatible checkout
 
@@ -157,26 +195,35 @@ MiniPay checkout should not be treated as fully available in every browser, plat
 
 Detailed token support, payment verification, Energy discounts, and checkout limitations are documented separately under Payments.
 
-## Energy-linked discounts
+## Digital Gear holder Energy discount
 
-Some hosted marketplace experiences may allow an eligible Move+ user to apply Energy as a discount before paying the remaining amount through MiniPay.
+Verified compatible Digital Gear holders may apply Energy as a discount toward an eligible hosted stablecoin checkout.
 
-This feature is controlled by the active marketplace configuration.
+The discount is limited to a maximum of 20% of the eligible checkout value.
 
-Energy-linked discounts may depend on:
+At least 80% remains payable using a supported stablecoin when the maximum discount is applied.
+
+Eligibility may depend on:
 
 - A linked Move+ account.
+- A linked wallet for the supported Digital Gear network.
+- Verified compatible Digital Gear ownership.
 - Sufficient Energy.
 - Product eligibility.
-- Active discount rules.
-- Marketplace availability.
+- Active Marketplace availability.
 - Current checkout configuration.
 
-Exact discount calculations and limits are documented separately under Payments.
+Digital Gear ownership does not provide full Energy payment.
+
+Exact Energy conversion calculations and internal discount formulas are not published.
 
 ## Accounts and eligibility
 
-A Move+ account is required for supported Energy redemption.
+A Move+ account is required for supported Energy use.
+
+Full Energy payment additionally requires an active qualifying iOS Move+ subscription.
+
+A Digital Gear holder discount additionally requires verified compatible Digital Gear ownership and the matching linked wallet.
 
 Hosted Real Items may be browsed without completing a purchase.
 
@@ -343,16 +390,22 @@ Blockchain payments are generally irreversible after confirmation.
 
 Energy does not represent guaranteed money or cash value.
 
+Full Energy payment is limited to eligible active iOS subscribers. Verified compatible Digital Gear holders may use Energy only for a discount of up to 20% toward a supported stablecoin checkout.
+
 ## Current limitations
 
 - Real Items are curated by Move+ and are not open to public seller listings.
 - Product availability depends on active listings and stock.
-- Native Energy redemption normally supports one product per redemption.
+- Full Energy payment is limited to eligible active iOS subscribers.
+- Verified compatible Digital Gear holders may use Energy only for a discount of up to 20%.
+- At least 80% of a Digital Gear holder checkout remains payable using a supported stablecoin when the maximum discount is applied.
+- Exact Energy conversion calculations are not published.
+- Native full-Energy redemption normally supports one product per redemption.
 - Standard product variant selection is not currently available.
 - The hosted marketplace remains under testing.
 - MiniPay checkout is not available in every environment.
 - Full Energy checkout is primarily available through the native Move+ Marketplace.
-- Energy-linked discounts are feature-controlled.
+- Energy-linked discounts are available only where the supported stablecoin checkout is enabled.
 - Delivery is currently limited to the Philippines.
 - International delivery is not currently available.
 - Fulfillment may be manually coordinated.
